@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2f88b28a-90a2-4338-a037-3ab45c37c1b3" name="Tau Fleet" revision="12" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData
-@mont_Fox
-Dndtonight.com" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2f88b28a-90a2-4338-a037-3ab45c37c1b3" name="Tau Fleet" revision="13" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @mont_Fox Dndtonight.com" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2f88b28a--pubN65608" name="BFG Armada"/>
     <publication id="2f88b28a--pubN71593" name="BFG Rulebook"/>
@@ -103,7 +101,7 @@ Barracuda: 25cm</characteristic>
             <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">All Around</characteristic>
           </characteristics>
         </profile>
-        <profile id="0ac6-a696-02f0-b1da" name="Air (Kor) Caste Orbital City" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="0ac6-a696-02f0-b1da" name="Air (Kor) Caste Orbital City" publicationId="5766-7751-d146-0800" page="166" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Defense</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">10</characteristic>
@@ -184,7 +182,7 @@ Barracuda: 25cm</characteristic>
             <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Right</characteristic>
           </characteristics>
         </profile>
-        <profile id="1f1d-07de-377f-e1a4" name="Cruiser - Demiurg &apos;Bastion&apos; Commerce Vessel" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="1f1d-07de-377f-e1a4" name="Cruiser - Demiurg &apos;Bastion&apos; Commerce Vessel" publicationId="1bc8-5968-21c3-0f27" page="111" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -248,7 +246,7 @@ The dorsal launch bays may launch either attack craft or torpedoes if reloaded b
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6d60-81aa-35bd-666e" name="Battleship - Demiurg &apos;Stronghold&apos; Commerse Vessel" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="6d60-81aa-35bd-666e" name="Battleship - Demiurg &apos;Stronghold&apos; Commerse Vessel" publicationId="1bc8-5968-21c3-0f27" page="110" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">10</characteristic>
@@ -391,7 +389,7 @@ Demiurg ‘Stronghold’ class vessels cannot employ Come to New Heading orders<
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="444b2283-1cc4-49fd-b14d-b42267ebe752" name="Explorer (Gal&apos;leath) Class Battleship" publicationId="1bc8-5968-21c3-0f27" page="0" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="444b2283-1cc4-49fd-b14d-b42267ebe752" name="Explorer (Gal&apos;leath) Class Battleship" publicationId="1bc8-5968-21c3-0f27" page="100" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -406,7 +404,7 @@ Demiurg ‘Stronghold’ class vessels cannot employ Come to New Heading orders<
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="bf42-53bb-bd49-3047" name="Explorer (Gal&apos;leath) Class Battleship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="bf42-53bb-bd49-3047" name="Explorer (Gal&apos;leath) Class Battleship" publicationId="1bc8-5968-21c3-0f27" page="100" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -529,7 +527,7 @@ armada pg 102</comment>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="33e7-aca9-8dac-b644" name="Merchant (Il&apos;fannor) Class Cruiser" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="33e7-aca9-8dac-b644" name="Merchant (Il&apos;fannor) Class Cruiser" publicationId="1bc8-5968-21c3-0f27" page="102" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="4869747323232344415441232323" value="2">
               <conditions>
@@ -671,7 +669,7 @@ armada pg 102</comment>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1ba5-5ed3-ba3a-4b57" name="Emissary (Il&apos;porrui) Class Cruiser" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="1ba5-5ed3-ba3a-4b57" name="Emissary (Il&apos;porrui) Class Cruiser" publicationId="5766-7751-d146-0800" page="163" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">4</characteristic>
@@ -865,7 +863,7 @@ Barracudas: 25cm</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="4a45-a1e4-8bad-ef1b" name="Defender (Kir&apos;qath) Class Starship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="4a45-a1e4-8bad-ef1b" name="Defender (Kir&apos;qath) Class Starship" publicationId="1bc8-5968-21c3-0f27" page="104" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -912,7 +910,7 @@ Barracudas: 25cm</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="4a24-180c-6052-1b16" name="Castellan (Kir&apos;shasvre) Escort" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="4a24-180c-6052-1b16" name="Castellan (Kir&apos;shasvre) Escort" publicationId="5766-7751-d146-0800" page="165" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -945,7 +943,7 @@ Barracudas: 25cm</characteristic>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72ea18aa-9387-4130-b6f9-147d6b4bd3da" name="Kroot Warsphere" page="0" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="72ea18aa-9387-4130-b6f9-147d6b4bd3da" name="Kroot Warsphere" publicationId="1bc8-5968-21c3-0f27" page="108" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -968,7 +966,7 @@ Barracudas: 25cm</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5db7-0fac-785c-e69a" name="Kroot Warsphere" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="5db7-0fac-785c-e69a" name="Kroot Warsphere" publicationId="1bc8-5968-21c3-0f27" page="108" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Defence</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">10</characteristic>
@@ -1025,7 +1023,7 @@ Barracudas: 25cm</characteristic>
         <constraint field="selections" scope="2f19107a-1458-455e-ad94-5e03231fa0b2" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7482-87e7-7260-95a0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7ec2-16da-cab9-4840" name="Hero (Lar&apos;shi) Class Cruiser" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="7ec2-16da-cab9-4840" name="Hero (Lar&apos;shi) Class Cruiser" publicationId="1bc8-5968-21c3-0f27" page="103" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -1166,7 +1164,7 @@ Barracudas: 25cm</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="bbad-2979-cc52-2c17" name="Protector (Lar&apos;shi&apos;vre) Cruiser" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="bbad-2979-cc52-2c17" name="Protector (Lar&apos;shi&apos;vre) Cruiser" publicationId="5766-7751-d146-0800" page="162" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">6</characteristic>
@@ -1340,7 +1338,7 @@ Barracudas: 25cm</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="a665-70be-3a87-aedb" name="Nicassar Dhow" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="a665-70be-3a87-aedb" name="Nicassar Dhow" publicationId="1bc8-5968-21c3-0f27" page="107" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -1452,7 +1450,7 @@ Barracudas: 25cm</characteristic>
             <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Right/Front</characteristic>
           </characteristics>
         </profile>
-        <profile id="a5d7-196c-9386-a1a4" name="Custodian (Or&apos;es El&apos;leath) Class Battleship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="a5d7-196c-9386-a1a4" name="Custodian (Or&apos;es El&apos;leath) Class Battleship" publicationId="5766-7751-d146-0800" page="160" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">10</characteristic>
@@ -1523,7 +1521,7 @@ Barracudas: 25cm</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="91da-04f8-105a-2a8a" name="Security Orbital" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="91da-04f8-105a-2a8a" name="Security Orbital" publicationId="5766-7751-d146-0800" page="166" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Defense</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">4</characteristic>
@@ -1556,7 +1554,7 @@ Barracudas: 25cm</characteristic>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f6ae7eaf-a600-4ab5-9b08-b828cb127c30" name="Messenger (Skether&apos;qan) Class Starship" page="0" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="f6ae7eaf-a600-4ab5-9b08-b828cb127c30" name="Messenger (Skether&apos;qan) Class Starship" publicationId="1bc8-5968-21c3-0f27" page="104" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <comment>filter fleet list</comment>
@@ -1581,7 +1579,7 @@ Barracudas: 25cm</characteristic>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="074b-84b7-d328-8eee" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2832-b638-efcd-570b" name="Messenger (Skether&apos;qan) Class Starship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="2832-b638-efcd-570b" name="Messenger (Skether&apos;qan) Class Starship" publicationId="1bc8-5968-21c3-0f27" page="104" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -1640,7 +1638,7 @@ Barracudas: 25cm</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6ba8-643a-cc13-aac0" name="Core Module" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="6ba8-643a-cc13-aac0" name="Core Module" publicationId="1bc8-5968-21c3-0f27" page="106" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="increment" field="536869656c647323232344415441232323" value="1">
                   <conditions>
@@ -1878,7 +1876,7 @@ Barracudas: 25cm</characteristic>
             <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Left/Front/Right</characteristic>
           </characteristics>
         </profile>
-        <profile id="1e23-e550-0b68-780e" name="Courier (Il&apos;Emaar) Class Transport" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="1e23-e550-0b68-780e" name="Courier (Il&apos;Emaar) Class Transport" publicationId="5766-7751-d146-0800" page="165" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -1958,7 +1956,7 @@ replaced with Il‟fannor “Merchant” heavy transports if desired, each for t
             <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Front/Left/Right</characteristic>
           </characteristics>
         </profile>
-        <profile id="894e-006a-dd96-7cc6" name="Orca (Kass&apos;l) Class Gunship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="894e-006a-dd96-7cc6" name="Orca (Kass&apos;l) Class Gunship" publicationId="1bc8-5968-21c3-0f27" page="105" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -1993,7 +1991,7 @@ replaced with Il‟fannor “Merchant” heavy transports if desired, each for t
             <characteristic name="Fire Arc" typeId="466972652041726323232344415441232323">Front</characteristic>
           </characteristics>
         </profile>
-        <profile id="7912-b0ef-c277-25aa" name="Warden (Kir&apos;la) Class Gunship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="7912-b0ef-c277-25aa" name="Warden (Kir&apos;la) Class Gunship" publicationId="5766-7751-d146-0800" page="161" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
