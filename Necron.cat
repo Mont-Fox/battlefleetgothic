@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d0a06aad-4c1d-49bb-9286-b094e6b3fd8c" name="Necrons" revision="12" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="d0a06aad--pubN65876" name="BFG FAQ 2007"/>
-  </publications>
+<catalogue id="d0a06aad-4c1d-49bb-9286-b094e6b3fd8c" name="Necrons" revision="13" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="d1ae-25b1-bb3e-95c3" name="Necron Harvest Fleet" publicationId="1bc8-5968-21c3-0f27" page="78" hidden="false">
       <categoryLinks>
@@ -24,7 +21,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="8b768a17-acfc-4fca-87a5-8ce016ba3226" name="Cairn Class Tombship" page="0" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="8b768a17-acfc-4fca-87a5-8ce016ba3226" name="Cairn Class Tombship" publicationId="1bc8-5968-21c3-0f27" page="75" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="maxInRoster" value="1.0">
           <repeats>
@@ -46,7 +43,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8e7c-2360-9eeb-4d4b" name="Necron Cairn Class Tombship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="8e7c-2360-9eeb-4d4b" name="Necron Cairn Class Tombship" publicationId="1bc8-5968-21c3-0f27" page="75" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -100,7 +97,7 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="cd94-d42c-3fab-7d78" name="Star pulse generator" publicationId="d0a06aad--pubN65876" page="10" hidden="false">
+            <rule id="cd94-d42c-3fab-7d78" name="Star pulse generator" publicationId="1bc8-5968-21c3-0f27" page="73" hidden="false">
               <description>Rolls 1D6 to hit against the nearest facing armor value separately against every ship in range. This cannot be saved against by holofields. It rolls 4+ against every separate ordnance marker in range (as opposed to against ordnance waves).</description>
             </rule>
           </rules>
@@ -230,7 +227,7 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5eb3357-d2fd-450e-8ea2-1243d9d12971" name="Scythe Class Harvest Ship" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e5eb3357-d2fd-450e-8ea2-1243d9d12971" name="Scythe Class Harvest Ship" publicationId="1bc8-5968-21c3-0f27" page="76" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -247,7 +244,7 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
         <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1336-536f-9b28-bd8c" name="Scythe Class Harvest Ship" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="1336-536f-9b28-bd8c" name="Scythe Class Harvest Ship" publicationId="1bc8-5968-21c3-0f27" page="76" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -332,7 +329,7 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
             </profile>
           </profiles>
           <rules>
-            <rule id="c2f9-2916-f5fa-35e4" name="Star pulse generator" publicationId="d0a06aad--pubN65876" page="10" hidden="false">
+            <rule id="c2f9-2916-f5fa-35e4" name="Star pulse generator" publicationId="1bc8-5968-21c3-0f27" page="73" hidden="false">
               <description>Rolls 1D6 to hit against the nearest facing armor value separately against every ship in range. This cannot be saved against by holofields. It rolls 4+ against every separate ordnance marker in range (as opposed to against ordnance waves).</description>
             </rule>
           </rules>
@@ -345,7 +342,7 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
         <cost name="pts" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1938fe3-5a9f-4c9e-90a9-8b8f701d2008" name="Shroud Class Light Cruiser" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c1938fe3-5a9f-4c9e-90a9-8b8f701d2008" name="Shroud Class Light Cruiser" publicationId="1bc8-5968-21c3-0f27" page="77" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -362,7 +359,7 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7d2d-b1d1-2e1b-0b1f" name="Shroud Class Light Cruiser" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="7d2d-b1d1-2e1b-0b1f" name="Shroud Class Light Cruiser" publicationId="1bc8-5968-21c3-0f27" page="77" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">4</characteristic>
@@ -614,12 +611,12 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
     </rule>
   </rules>
   <sharedSelectionEntries>
-    <selectionEntry id="f41e-42fc-3733-4efb" name="Dirge Class Raider" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f41e-42fc-3733-4efb" name="Dirge Class Raider" publicationId="1bc8-5968-21c3-0f27" page="78" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="primary-catalogue" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9822-7e73-2136-4500" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3f12-4a01-a6df-fb5f" name="Dirge Class Raider" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="3f12-4a01-a6df-fb5f" name="Dirge Class Raider" publicationId="1bc8-5968-21c3-0f27" page="78" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -658,12 +655,12 @@ A ship attacked by the Sepulchre should take a Leadership test. If they pass, th
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7110-fe73-ee4a-5fc8" name="Jackal Class Raider" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7110-fe73-ee4a-5fc8" name="Jackal Class Raider" publicationId="1bc8-5968-21c3-0f27" page="77" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3763-2614-0aa1-aaf0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="aadf-baa1-3263-63d9" name="Jackal Class Raider" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="aadf-baa1-3263-63d9" name="Jackal Class Raider" publicationId="1bc8-5968-21c3-0f27" page="77" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
