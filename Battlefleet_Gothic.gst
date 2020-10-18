@@ -19,6 +19,10 @@ Bug report : https://tinyurl.com/gothicbug</readme>
     <publication id="c725-9c27-cf26-b44b" name="Fanatic Magazine Issue 62"/>
     <publication id="d256-2988-72a8-df2f" name="Fanatic Magazine Issue 96 - Book of Nemesis"/>
     <publication id="137d-dbad-5653-19f2" name="Unofficial"/>
+    <publication id="0bc0-eb58-eacf-d1b0" name="1 Note">
+      <comment>Note: The main sources for gothic are to be, BFG Rulebook, BFG Rulebook - Armada, and the 2010 compendium.
+The additional ships compendium cites it&apos;s sources so site those instead of the additioanl ships document. </comment>
+    </publication>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
@@ -116,9 +120,9 @@ Bug report : https://tinyurl.com/gothicbug</readme>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="9371-fa4d-d130-e0bd" name="Note" hidden="true" collective="false" import="false" type="upgrade">
+    <selectionEntry id="9371-fa4d-d130-e0bd" name="1 Note" hidden="true" collective="false" import="false" type="upgrade">
       <comment>Nothing goes here or it will be shared across every fleet list.
-If you select import</comment>
+</comment>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -2290,6 +2294,13 @@ Usually used as objectives in missions.</characteristic>
         <cost name="pts" typeId="points" value="445.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9934-68dd-4be2-f19f" name="1 Note" hidden="true" collective="false" import="true" type="upgrade">
+      <comment>These shared selection entries are for weapon choices in the 40K battlescribe.
+Weapon profiles are then linked within them from the shared profiles section. 
+
+This is where points should be set.
+also 40k does not put unit&apos;s here. </comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="2d3e-6486-b943-7e81" name="Chaos Ordnance" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-8ef6-b74d-d36b">
@@ -2721,6 +2732,14 @@ Bombardment cannons inflict critical hits on a roll of 4 or more, rather than ju
     <profile id="c466-daa1-aff6-1f6f" name="Mark of Chaos Undivided" hidden="false" typeId="5a49-6569-78e9-a35c" typeName="Special Rule">
       <characteristics>
         <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">The marked vessel has been rewarded for its dedication to Chaos as a whole, not devoting itself to one particular god but instead advancing the greater cause of Chaos in all its forms. Only vessels embarking a Chaos Warmaster or Chaos Lord may be given this mark. Once per game, you may have your entire fleet use the marked vessel’s leadership value until the end of the turn. You may trigger this ability at any time.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8fae-7f71-c348-6bfd" name="1 Note" hidden="true" typeId="436f6d6d616e64657223232344415441232323" typeName="Commander">
+      <comment>All common weapon/unit profiles should be stored here and then linked above. </comment>
+      <characteristics>
+        <characteristic name="Leadership" typeId="4c65616465727368697023232344415441232323"/>
+        <characteristic name="Re-rolls" typeId="52652d726f6c6c7323232344415441232323"/>
+        <characteristic name="Pg." typeId="50672e23232344415441232323"/>
       </characteristics>
     </profile>
   </sharedProfiles>
