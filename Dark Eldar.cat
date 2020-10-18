@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e0996cee-ffd0-44a1-bf94-1cc48fd3febb" name="Dark Eldar Pirate Fleet List" revision="8" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="e0996cee--pubN65865" name="BFG Rulebook - Armada"/>
-  </publications>
+<catalogue id="e0996cee-ffd0-44a1-bf94-1cc48fd3febb" name="Dark Eldar Pirate Fleet List" revision="9" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData
+@ Mont_fox
+Dndtonight.com" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="ba70-dcab-8fd1-f2b8" name="Dark Eldar Pirate Fleet List" publicationId="1bc8-5968-21c3-0f27" page="56" hidden="false">
       <categoryLinks>
@@ -117,7 +116,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0318-9e79-f69d-0912" name="Dark Eldar Torture Class Cruiser" publicationId="e0996cee--pubN65865" page="56" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="0318-9e79-f69d-0912" name="Dark Eldar Torture Class Cruiser" publicationId="1bc8-5968-21c3-0f27" page="56" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -134,7 +133,7 @@
         <constraint field="selections" scope="primary-catalogue" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89f0-691d-7523-f215" type="max"/>
       </constraints>
       <profiles>
-        <profile id="acf8-df63-ef72-a10b" name="Torture Class Cruiser Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="acf8-df63-ef72-a10b" name="Torture Class Cruiser Profile" publicationId="1bc8-5968-21c3-0f27" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">6</characteristic>
@@ -306,7 +305,7 @@ Raptor fighters have a speed of 30cm and need a 4+ to remain in play after remov
   <sharedSelectionEntries>
     <selectionEntry id="3492-1236-f700-f36a" name="Dark Eldar Corsair Class Escort" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e18f-914b-4242-da47" name="Corsair Class Escort Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="e18f-914b-4242-da47" name="Corsair Class Escort Profile" publicationId="1bc8-5968-21c3-0f27" page="57" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
