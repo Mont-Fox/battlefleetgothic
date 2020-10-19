@@ -1266,7 +1266,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         <cost name="pts" typeId="points" value="285.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="79b1-470d-160a-4efa" name="Emasculator Class Cruiser" publicationId="8442-aa7f-a96d-22fa" page="45" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="79b1-470d-160a-4efa" name="Emasculator Class Cruiser" publicationId="9670-79b6-b335-ed60" page="45" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -1338,7 +1338,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         <cost name="pts" typeId="points" value="185.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e832-733a-443f-9fec" name="Apostate Class Heavy Raider" publicationId="8442-aa7f-a96d-22fa" page="45" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="e832-733a-443f-9fec" name="Apostate Class Heavy Raider" publicationId="9670-79b6-b335-ed60" page="45" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -3205,7 +3205,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f97d-9369-c161-4470" name="Veil of Lust" publicationId="6025-4ccb-9921-09db" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="f97d-9369-c161-4470" name="Veil of Lust" publicationId="9670-79b6-b335-ed60" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -3230,7 +3230,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b33-9d42-7625-80ad" name="Siren&apos;s Summon" publicationId="6025-4ccb-9921-09db" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="7b33-9d42-7625-80ad" name="Siren&apos;s Summon" publicationId="9670-79b6-b335-ed60" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>

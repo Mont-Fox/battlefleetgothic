@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cdc1-e60c-6456-c57a" name="Imperium" revision="21" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cdc1-e60c-6456-c57a" name="Imperium" revision="21" battleScribeVersion="2.03" authorName="BSData" authorContact="@BSData @Mont_Fox" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="44fa-5ffb-b627-7106" name="New Publication"/>
   </publications>
@@ -3083,6 +3083,9 @@ Starhawks: 20cm</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="508d-3fd6-405e-43ff" name="Havock (Torpedos)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3101,6 +3104,9 @@ Starhawks: 20cm</characteristic>
               <infoLinks>
                 <infoLink id="3111-b421-d303-d8a9" name="Torpedos" hidden="false" targetId="26c4-bc19-6c92-c331" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="067a-2ce3-5e1c-d384" name="Vigilant (Torpedos)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3119,6 +3125,9 @@ Starhawks: 20cm</characteristic>
               <infoLinks>
                 <infoLink id="307e-a732-65cd-12a7" name="Torpedos" hidden="false" targetId="26c4-bc19-6c92-c331" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -7287,7 +7296,7 @@ The ship can use &quot;Come to a New Heading&quot; orders as they have amuch hig
         <cost name="pts" typeId="points" value="290.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e7d-8fbe-f68a-32a8" name="Nemesis Class Fleet Carrier" publicationId="8442-aa7f-a96d-22fa" page="9" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5e7d-8fbe-f68a-32a8" name="Nemesis Class Fleet Carrier" publicationId="9670-79b6-b335-ed60" page="9" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d750-597a-913e-8928" name="Nemesis Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>

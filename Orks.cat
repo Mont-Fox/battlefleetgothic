@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e2e6-c633-dc83-216b" name="Orks" revision="4" battleScribeVersion="2.03" authorName="Tomakokamikaze" authorContact="@Tomakokamikaze" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e2e6-c633-dc83-216b" name="Orks" revision="4" battleScribeVersion="2.03" authorName="Tomakokamikaze" authorContact="@Tomakokamikaze" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3efa-b57a-8226-2e47" name="Ork Pirates" publicationId="137d-dbad-5653-19f2" hidden="false">
       <categoryLinks>
@@ -2022,7 +2022,7 @@ A vessel carrying a Warlord doubles its boarding value and may include up to one
         <cost name="pts" typeId="points" value="600.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="440d-f1d9-0756-0da4" name="Ork Gouga Class Light Kroozer" publicationId="6025-4ccb-9921-09db" page="62" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="440d-f1d9-0756-0da4" name="Ork Gouga Class Light Kroozer" publicationId="9670-79b6-b335-ed60" page="62" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2035,7 +2035,7 @@ A vessel carrying a Warlord doubles its boarding value and may include up to one
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="078b-05f9-0180-008f" name="Gouga Profile" publicationId="6025-4ccb-9921-09db" page="62" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="078b-05f9-0180-008f" name="Gouga Profile" publicationId="9670-79b6-b335-ed60" page="62" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">6</characteristic>

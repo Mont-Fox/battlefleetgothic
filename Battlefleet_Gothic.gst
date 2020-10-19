@@ -4,13 +4,13 @@
 Bug report : https://tinyurl.com/gothicbug</readme>
   <publications>
     <publication id="5766-7751-d146-0800" name="2010 Compendium"/>
-    <publication id="31db-354b-7439-4995" name="Battlefkeet Gothic Magazine 14"/>
-    <publication id="8442-aa7f-a96d-22fa" name="BFG Additional Ships Compendium"/>
+    <publication id="31db-354b-7439-4995" name="Battlefleet Gothic Magazine 14"/>
     <publication id="11f0-17d1-e4d2-1018" name="BFG Rulebook"/>
     <publication id="1bc8-5968-21c3-0f27" name="BFG Rulebook - Armada"/>
     <publication id="b161-6b4c-e770-9ab2" name="BFG Rulebook - Armada + 2010 FAQ"/>
-    <publication id="9670-79b6-b335-ed60" name="BFG - Additional Ships Compendium 1.4"/>
-    <publication id="6025-4ccb-9921-09db" name="BFGAdditional Ships Compendium"/>
+    <publication id="9670-79b6-b335-ed60" name="Additional Ships Compendium 1.4 (fan compiled)">
+      <comment>it is preferred to cite the origional source, but to maintain links this will be left here. </comment>
+    </publication>
     <publication id="c8aa-777a-ddc3-1c0a" name="Fanatic Magazine Issue 42"/>
     <publication id="b6b0-a261-40b3-6563" name="Fanatic Magazine issue 60"/>
     <publication id="c725-9c27-cf26-b44b" name="Fanatic Magazine Issue 62"/>
@@ -905,7 +905,7 @@ The additional ships compendium cites it&apos;s sources so site those instead of
         <cost name="pts" typeId="points" value="145.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5da5-68f9-862c-7a0b" name="Furious Class Grand Cruiser" publicationId="8442-aa7f-a96d-22fa" page="15" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5da5-68f9-862c-7a0b" name="Furious Class Grand Cruiser" publicationId="9670-79b6-b335-ed60" page="15" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af48-9fe4-e367-95e4" type="max"/>
       </constraints>
