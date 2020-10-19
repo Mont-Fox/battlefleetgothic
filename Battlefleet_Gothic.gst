@@ -11,7 +11,6 @@ Bug report : https://tinyurl.com/gothicbug</readme>
     <publication id="11f0-17d1-e4d2-1018" name="BFG Rulebook"/>
     <publication id="1bc8-5968-21c3-0f27" name="BFG Rulebook - Armada"/>
     <publication id="b161-6b4c-e770-9ab2" name="BFG Rulebook - Armada + 2010 FAQ"/>
-    <publication id="acb7-35d6-a2c5-f4a5" name="BFG Rulebook- Armada"/>
     <publication id="9670-79b6-b335-ed60" name="BFG - Additional Ships Compendium 1.4"/>
     <publication id="6025-4ccb-9921-09db" name="BFGAdditional Ships Compendium"/>
     <publication id="c8aa-777a-ddc3-1c0a" name="Fanatic Magazine Issue 42"/>
@@ -1086,7 +1085,7 @@ In a Planetary Assault scenario, Space Marine strike cruisers and battle barges 
         </profile>
       </profiles>
       <rules>
-        <rule id="ba2e-c85b-bfb9-051a" name="Make &quot;Reload Ordnance Test at -1Ld&quot;" publicationId="acb7-35d6-a2c5-f4a5" page="159" hidden="false"/>
+        <rule id="ba2e-c85b-bfb9-051a" name="Make &quot;Reload Ordnance Test at -1Ld&quot;" publicationId="1bc8-5968-21c3-0f27" page="159" hidden="false"/>
       </rules>
       <categoryLinks>
         <categoryLink id="a09e-8875-63fa-69de" name="New CategoryLink" hidden="false" targetId="4573636f72747323232344415441232323" primary="true"/>
