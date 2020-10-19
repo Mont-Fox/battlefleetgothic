@@ -4,8 +4,6 @@
 Bug report : https://tinyurl.com/gothicbug</readme>
   <publications>
     <publication id="5766-7751-d146-0800" name="2010 Compendium"/>
-    <publication id="789d-522c-ea2d-cbca" name="2010 FAQ"/>
-    <publication id="f00a-0d10-63a7-a856" name="2010 FAQ cost adjust"/>
     <publication id="31db-354b-7439-4995" name="Battlefkeet Gothic Magazine 14"/>
     <publication id="8442-aa7f-a96d-22fa" name="BFG Additional Ships Compendium"/>
     <publication id="11f0-17d1-e4d2-1018" name="BFG Rulebook"/>
