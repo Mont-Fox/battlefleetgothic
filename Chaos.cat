@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="824f9aff-29ca-4220-81ce-60725a6011c5" name="Chaos" revision="23" battleScribeVersion="2.03" authorName="Tomakokkamikaze" authorContact="@Tomakokamikaze @Mont_Fox" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="824f9aff-29ca-4220-81ce-60725a6011c5" name="Chaos" revision="24" battleScribeVersion="2.03" authorName="Tomakokkamikaze" authorContact="@Tomakokamikaze @Mont_Fox" authorUrl="http://battlescribedata.appspot.com/#/repo/battlefleetgothic" library="false" gameSystemId="de5d6c5f-ae7b-4dd1-841e-5f1193fb5176" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Use Force Org Unbound for all ships. 13th crusade fleet matched to Armada. Incursion fleet matched to Blue Book. </readme>
   <publications>
     <publication id="824f9aff--pubN99933" name="BFGXR - Chaos">
@@ -486,7 +486,7 @@ Should this dreadful failure occur on Abaddon’s own ship, it will lose one Dam
         <cost name="pts" typeId="points" value="195.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1397bd4-334e-4868-9b7a-8d478c8a120d" name="Carnage Class Cruiser" page="0" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="c1397bd4-334e-4868-9b7a-8d478c8a120d" name="Carnage Class Cruiser" publicationId="11f0-17d1-e4d2-1018" page="124" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -646,7 +646,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="238c-2d94-8fe0-2060" name="Devastation Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="238c-2d94-8fe0-2060" name="Devastation Profile" publicationId="11f0-17d1-e4d2-1018" page="123" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -725,7 +725,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="a01e-9623-9498-a0dc" name="Murder Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="a01e-9623-9498-a0dc" name="Murder Profile" publicationId="11f0-17d1-e4d2-1018" page="123" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -851,7 +851,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         <constraint field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ef-73c0-4023-9448" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5e98-2b62-bae5-521d" name="Planet Killer Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="5e98-2b62-bae5-521d" name="Planet Killer Profile" publicationId="1bc8-5968-21c3-0f27" page="36" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">14</characteristic>
@@ -940,7 +940,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8abe-caf4-e40b-596e" name="Slaughter Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="8abe-caf4-e40b-596e" name="Slaughter Profile" publicationId="11f0-17d1-e4d2-1018" page="124" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -1029,7 +1029,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5850-0d5e-5147-a297" type="max"/>
       </constraints>
       <profiles>
-        <profile id="07b4-895a-1308-1259" name="Desecrator Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="07b4-895a-1308-1259" name="Desecrator Profile" publicationId="9670-79b6-b335-ed60" page="40" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -1117,7 +1117,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6762-d2c0-5dc6-5133" name="Hecate Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="6762-d2c0-5dc6-5133" name="Hecate Profile" publicationId="5766-7751-d146-0800" page="115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -1197,7 +1197,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6b07-d14d-80ad-0ca9" name="Hellfire Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="6b07-d14d-80ad-0ca9" name="Hellfire Profile" publicationId="9670-79b6-b335-ed60" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -1281,7 +1281,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="68f4-3440-fc6d-ac59" name="Emasculator Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="68f4-3440-fc6d-ac59" name="Emasculator Profile" publicationId="9670-79b6-b335-ed60" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -1352,7 +1352,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="23b0-5733-566b-419b" name="Apostate Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="23b0-5733-566b-419b" name="Apostate Profile" publicationId="9670-79b6-b335-ed60" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -1411,7 +1411,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         <constraint field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d20-60e4-ba1b-833b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="38f2-97d1-eccf-c25a" name="Scion Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="38f2-97d1-eccf-c25a" name="Scion of Prospero Profile" publicationId="5766-7751-d146-0800" page="106" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -1521,7 +1521,7 @@ Chaos Warmasters get one re-roll. In addition they may be given a single Mark of
         <constraint field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d841-cfb5-da85-1ee4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="000f-2e9b-e4dd-7003" name="Wage Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="000f-2e9b-e4dd-7003" name="Wage of Sin Profile" publicationId="5766-7751-d146-0800" page="108" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -1807,7 +1807,7 @@ When a Thunderhawk marker moves into contact with an enemy ship’s base, they a
         <constraint field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2690-4bff-bbd9-4119" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e845-b848-39c0-7182" name="Terminus Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="e845-b848-39c0-7182" name="Terminus Est Profile" publicationId="5766-7751-d146-0800" page="109" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">13</characteristic>
@@ -1931,7 +1931,7 @@ When a Thunderhawk marker moves into contact with an enemy ship’s base, they a
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="4c26-9fa8-c445-08f3" name="Conqueror Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="4c26-9fa8-c445-08f3" name="Conqueror Profile" publicationId="5766-7751-d146-0800" page="113" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -2158,7 +2158,7 @@ Planetery Assault: Ships with Chaos Space Marine crews in a Planetary Assault mi
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2af5-9281-4246-07a6" name="Inferno Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="2af5-9281-4246-07a6" name="Inferno Profile" publicationId="5766-7751-d146-0800" page="116" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">8</characteristic>
@@ -2234,7 +2234,7 @@ Planetery Assault: Ships with Chaos Space Marine crews in a Planetary Assault mi
         <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5b4-93e1-e7b2-e754" type="max"/>
       </constraints>
       <profiles>
-        <profile id="faac-526a-cee1-ab55" name="Activated Blackstone Fortress" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="faac-526a-cee1-ab55" name="Activated Blackstone Fortress" publicationId="5766-7751-d146-0800" page="117" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Defense</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">16</characteristic>
@@ -2289,7 +2289,7 @@ Planetery Assault: Ships with Chaos Space Marine crews in a Planetary Assault mi
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce3-05ae-087b-fc0f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8b11-69e8-4e75-979e" name="Chaos Space Hulk Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="8b11-69e8-4e75-979e" name="Chaos Space Hulk Profile" publicationId="5766-7751-d146-0800" page="118" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Defense</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">40</characteristic>
@@ -2417,7 +2417,7 @@ Planetery Assault: Ships with Chaos Space Marine crews in a Planetary Assault mi
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c772-4b92-0a6e-24e5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0c7b-000c-c43a-58e8" name="Ahriman Of The Thousand Sons" hidden="false" typeId="436f6d6d616e64657223232344415441232323" typeName="Commander">
+        <profile id="0c7b-000c-c43a-58e8" name="Ahriman Of The Thousand Sons" publicationId="31db-354b-7439-4995" page="31" hidden="false" typeId="436f6d6d616e64657223232344415441232323" typeName="Commander">
           <characteristics>
             <characteristic name="Leadership" typeId="4c65616465727368697023232344415441232323">10</characteristic>
             <characteristic name="Re-rolls" typeId="52652d726f6c6c7323232344415441232323">1 per turn</characteristic>
@@ -2481,7 +2481,7 @@ Should this dreadful failure occur on Abaddon’s own ship, it will lose one Dam
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecfc-b6d2-a3d4-41c9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b123-f0bd-c211-72b7" name="Favoured Concubine Profile" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="b123-f0bd-c211-72b7" name="Favoured Concubine Profile" publicationId="b6b0-a261-40b3-6563" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Battleship</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">12</characteristic>
@@ -2767,7 +2767,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0de-9ba5-12c6-8a32" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bb40-3c21-e288-0e65" name="Heretic Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="bb40-3c21-e288-0e65" name="Heretic Profile" publicationId="d256-2988-72a8-df2f" page="11" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">6</characteristic>
@@ -3036,7 +3036,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="893b-1ed4-fa75-9152" name="Unbeliever Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="893b-1ed4-fa75-9152" name="Unbeliever Profile" publicationId="d256-2988-72a8-df2f" page="12" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Cruiser</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">6</characteristic>
@@ -3258,7 +3258,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c76f-dac9-ccd6-af3d" name="Warp Beasts" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="c76f-dac9-ccd6-af3d" name="Warp Beasts" publicationId="5766-7751-d146-0800" page="120" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -3301,7 +3301,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="94f4-8ba6-5aaa-579f" name="Strand of Fortune" hidden="false" typeId="5a49-6569-78e9-a35c" typeName="Special Rule">
+        <profile id="94f4-8ba6-5aaa-579f" name="Strand of Fortune" publicationId="5766-7751-d146-0800" hidden="false" typeId="5a49-6569-78e9-a35c" typeName="Special Rule">
           <characteristics>
             <characteristic name="Effects" typeId="fe13-6bab-c5cb-4f1d">Any ship led by a Lord of Tzeentch (and not the Warmaster!) may be granted a Strand of Fortune. Once per battle it automatically passes a command check or leadership test- no roll required.</characteristic>
           </characteristics>
@@ -3311,7 +3311,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="20e8-238d-febe-8b75" name="Hives of Nurgle" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="20e8-238d-febe-8b75" name="Hives of Nurgle" publicationId="5766-7751-d146-0800" page="121" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -3859,7 +3859,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
   <sharedSelectionEntries>
     <selectionEntry id="a23e-2e23-de49-3663" name="Iconoclast Class Destroyer" publicationId="11f0-17d1-e4d2-1018" page="126" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="99a1-569e-9fb8-f569" name="Iconoclast Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="99a1-569e-9fb8-f569" name="Iconoclast Profile" publicationId="11f0-17d1-e4d2-1018" page="126" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -3887,7 +3887,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
     </selectionEntry>
     <selectionEntry id="8cdc-edab-b278-63d6" name="Idolator Class Raider" publicationId="11f0-17d1-e4d2-1018" page="125" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b113-11b5-787b-e1a6" name="Idolator Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="b113-11b5-787b-e1a6" name="Idolator Profile" publicationId="11f0-17d1-e4d2-1018" page="125" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
@@ -3922,7 +3922,7 @@ Ships with Chaos Space Marine crews in a Planetary Assault mission score two Ass
     </selectionEntry>
     <selectionEntry id="9c12-e4f6-867e-765b" name="Infidel Class Raider" publicationId="11f0-17d1-e4d2-1018" page="125" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ef55-bef8-dbe8-9d4e" name="Infidel Profile" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="ef55-bef8-dbe8-9d4e" name="Infidel Profile" publicationId="11f0-17d1-e4d2-1018" page="125" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Type" typeId="5479706523232344415441232323">Escort</characteristic>
             <characteristic name="Hits" typeId="4869747323232344415441232323">1</characteristic>
